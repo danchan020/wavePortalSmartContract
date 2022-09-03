@@ -21,7 +21,7 @@ export default function App() {
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Wave at Me
+          Wave at Me again and again
         </button>
       </div>
     </div>
