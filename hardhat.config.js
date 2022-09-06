@@ -17,4 +17,4 @@ module.exports = {
   },
 };
 
-//WavePortal address:  0xAb66e88947F2eDdAF4374D853baF18A2d93A8128
+//WavePortal address:  0x51783e7515D6e86b0E56D446b1252195AbC79Bae
