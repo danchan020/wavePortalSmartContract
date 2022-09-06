@@ -1,16 +1,6 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
 # smartContract-wavePortal
+
+This project was a Solidity tutorial from Buildspace. The tutorial covered using Hardhat as a development environment, writing  and deploying Solidity smart contracts, and creating the connection between the contract and client. Front end design was handled by myself.
+<br>
+<br>
+To see the github repository to the client: https://github.com/danchan020/wavePortal
