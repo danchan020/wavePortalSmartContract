@@ -7,7 +7,7 @@ import "hardhat/console.sol";
 contract WavePortal {
     uint256 totalWaves;
 
-    // will be used to generate a random number
+    // will be used to generate random number
     uint256 private seed;
 
     
