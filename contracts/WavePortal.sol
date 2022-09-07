@@ -34,10 +34,10 @@ contract WavePortal {
     }
 
     function wave(string memory _message) public {
-        // 15 minute in between limit per wave
+        // 1 minute in between limit per wave
         require(
-            lastWavedAt[msg.sender] + 15 minutes < block.timestamp,
-            "Wait 15m"
+            lastWavedAt[msg.sender] + 1 minutes < block.timestamp,
+            "Wait 1m"
         );
         // update current timestamp for waving user
         lastWavedAt[msg.sender] = block.timestamp;
@@ -52,7 +52,7 @@ contract WavePortal {
         if (seed < 50) {
             console.log("%s won!", msg.sender);
         // declare eth amount and check if amount is available in contract balance
-        uint256 prizeAmount = 0.0001 ether;
+        uint256 prizeAmount = 0.001 ether;
         require(
             prizeAmount <= address(this).balance,
             "Trying to withdraw more money than the contract has."
