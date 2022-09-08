@@ -25,3 +25,5 @@ const main = async () => {
   };
   
   runMain();
+
+  // command redeploy: npx hardhat run scripts/deploy.js --network goerli

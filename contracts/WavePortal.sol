@@ -36,8 +36,8 @@ contract WavePortal {
     function wave(string memory _message) public {
         // 1 minute in between limit per wave
         require(
-            lastWavedAt[msg.sender] + 1 minutes < block.timestamp,
-            "Wait 1m"
+            lastWavedAt[msg.sender] + 5 minutes < block.timestamp,
+            "Wait 5m"
         );
         // update current timestamp for waving user
         lastWavedAt[msg.sender] = block.timestamp;
